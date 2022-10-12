@@ -26,10 +26,15 @@
 # user must not be allowed to enter age over 117 years
 
 print("Please Enter Your Age")
-age = input()
+age = int(input())
 
 if age >= 18 and age <= 117:
     print("You can watch any movie")
 elif age >= 16 and age < 18:
     print("You can only watch 16 and above movies")
-elif age
+elif age >= 12 and age < 16:
+    print("You can only watch 12a movies")
+elif age >= 8 and age < 12:
+    print("You can only watch pg movies")
+else:
+    print("Sorry, you cannot watch any movies here")
