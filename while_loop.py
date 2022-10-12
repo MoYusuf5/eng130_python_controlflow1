@@ -1,12 +1,12 @@
-#
 
-# data = 0
-#
-# while data < 10:
-#     print(f"it's working ->{data}")
-#     if data == 5:
-#         break # key word
-#     data += 1
+
+data = 0
+
+while data < 10:
+    print(f"it's working ->{data}")
+    if data == 5:
+        break # key word
+    data += 1
 
 
 user_prompt = True
